@@ -1,0 +1,52 @@
+.all{
+ display:flex;
+}
+.one{ width: 50%;
+    height: 500px;
+
+    
+
+}
+.two{
+ width: 50%;
+    padding: 10px;
+    height: 500px;
+    flex-grow: 1;
+}
+#heading{
+ margin: 150px;
+ border: 20px;
+ font-size: 32px;
+}
+.aa{
+ border: 1px solid black;
+ padding: 10px;
+ border-radius: 10px;
+ width: 300px;
+ 
+
+}
+a{
+ text-decoration: none;
+ color: black;
+}
+.bb{
+ border: 1px solid black;
+ padding: 10px;
+ border-radius: 10px;
+ width: 330px;
+ background-color: black;
+ color: aliceblue;
+ border-spacing: 2cm;
+ }
+#non{
+ text-align: end;
+}
+.br{
+ width: 50px;
+ height: 50px;
+}
+.ui{
+ font-size: small;
+ white-space:calc(20px);
+}
