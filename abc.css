@@ -46,34 +46,37 @@ a{
  white-space:calc(20px);
  } 
  
-@media (max-width: 768px) {
-  .all {
+@media(max-width: 768px){
+  .all{
     flex-direction: column;
     align-items: center;
   }
-  .one {
+  .one{
     width: 100%;
     height: auto;
   }
-  .two {
+  .two{
     width: 100%;
     height: auto;
  
-  #heading {
+  #heading{
     margin: 40px 20px;
     font-size: 30px;
   }
-  .aa,
-  .bb {
+  .aa{
     width: 80%;
     max-width: 330px;
   }
-  .br {
+  .bb{
+    width: 80%;
+    max-width: 330px;
+  }
+  .br{
     width: 40px;
     height: 40px;
   }
 }
-@media (max-width: 480px) {
+@media(max-width: 480px){
   #heading {
     margin: 20px;
     font-size: 24px;
