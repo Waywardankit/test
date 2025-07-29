@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Background Changer</title>
+  <style>
+    body {
+      transition: background-color 1s ease;
+    }
+
+    .color-options {
+      display: flex;
+      gap: 15px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .color-options img {
+      width: 30px;
+      height: 30px;
+      cursor: pointer;
+    }
+
+    #len {
+      width: 80%;
+      padding: 20px 70px;
+      margin: auto;
+    }
+
+    div > a {
+      font-size: 30px;
+      margin: 90px;
+    }
+
+    p {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+
+  <div class="color-options">
+    <img src="https://www.svgrepo.com/show/403021/black-circle.svg" alt="Black" id="black" style="border: 2px solid white; border-radius: 50%;">
+    <img src="https://www.svgrepo.com/show/404309/white-circle.svg" alt="White" id="white" style="border:1px solid grey; border-radius: 50%; background-color: white; ">
+    <img src="https://www.svgrepo.com/show/396579/green-circle.svg" alt="Green" id="green">
+  </div>
+
+  <br><div><a href="#">About us</a></div>
+
+  <p>
+    <img src="https://www.shutterstock.com/image-illustration/word-change-written-white-tiles-260nw-501142339.jpg" alt="">
+  </p>
+
+  <div id="len">
+    Lorem ipsum dolor sit, amet consectetur...
+  </div>
+
+  <script>
+    const black = document.getElementById("black");
+    const white = document.getElementById("white");
+    const green = document.getElementById("green");
+
+    black.addEventListener("click", () => {
+      document.body.style.backgroundColor = "black";
+      document.body.style.color = "white"; 
+    });
+
+    white.addEventListener("click", () => {
+      document.body.style.backgroundColor = "white";
+      document.body.style.color = "black";
+    });
+
+    green.addEventListener("click", () => {
+      document.body.style.backgroundColor = "#b2f2bb"; 
+      document.body.style.color = "black";
+    });
+  </script>
+</body>
+</html>
